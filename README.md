@@ -51,3 +51,80 @@ Dokumen perancangan proyek tersedia pada file [`proposal.md`](proposal.md).
 
 ## Status Proyek
 Tahap perancangan (Pertemuan 14). Implementasi program akan dilakukan pada tahap berikutnya.
+
+---- Pertemuan 15 ----
+## Fitur Program
+
+1. Menambahkan data siswa.
+2. Memvalidasi nomor absen agar tidak duplikat.
+3. Memvalidasi nilai dalam rentang 0–100.
+4. Menampilkan seluruh data siswa.
+5. Mencari siswa berdasarkan nomor absen.
+6. Menghitung nilai akhir berdasarkan bobot.
+7. Menentukan status kelulusan.
+8. Menampilkan statistik nilai kelas.
+9. Menyimpan dan membaca data siswa.
+
+## Ketentuan Penilaian
+
+- Nilai tugas: 40%
+- Nilai UTS: 30%
+- Nilai UAS: 30%
+- Batas kelulusan: 75
+
+## Persyaratan
+
+- Python 3.x
+- Visual Studio Code (disarankan)
+
+## Cara Menjalankan
+
+Buka terminal pada folder utama proyek, kemudian jalankan:
+
+```bash
+py src/main.py
+```
+
+## Struktur Folder
+
+```text
+analisis-nilai-siswa-2225250041/
+├── README.md
+├── proposal.md
+├── .gitignore
+├── data/
+│   └── data_siswa.txt
+├── src/
+│   ├── main.py
+│   ├── siswa.py
+│   ├── analisis.py
+│   └── file_handler.py
+└── tests/
+    └── test_cases.md
+```
+
+## Pengujian
+
+Pengujian program mencakup:
+- Perhitungan nilai akhir.
+- Batas kelulusan.
+- Validasi nilai.
+- Nomor absen duplikat.
+- Penyimpanan data.
+- Statistik kelas.
+
+Hasil pengujian dicatat dalam file `tests/test_cases.md`.
+
+## Status Proyek
+
+Implementasi dan pengujian program dilakukan pada Pertemuan 15.
+
+
+## Cara Menjalankan
+
+Pastikan Python sudah terpasang.
+
+Jalankan perintah berikut dari folder utama proyek:
+
+```bash
+py src/main.py
